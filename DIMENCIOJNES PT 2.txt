@@ -1,0 +1,15 @@
+Escribir un programa de dos dimenciones 5x3 de secuencia mayores de 50 en rstudio
+
+
+> a <- array(seq(from = 50, length.out = 15, by = 4), c(5, 3))
+> print("Content of the array:")
+[1] "Content of the array:"
+> print("5×3 array of sequence of even integers greater than 50:")
+[1] "5×3 array of sequence of even integers greater than 50:"
+> print(a)
+     [,1] [,2] [,3]
+[1,]   50   70   90
+[2,]   54   74   94
+[3,]   58   78   98
+[4,]   62   82  102
+[5,]   66   86  106
